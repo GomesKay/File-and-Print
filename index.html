@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <title>File and Print</title>
+
+            <link rel="stylesheet" href="style.css">
+
+        </head>
+<body>
+
+    <div class="title_file">
+        <h1>Arquive seus Dados</h1>
+    </div>
+    <div class="file">
+
+        <p class="p_top">Preencha abaixo:</p>
+
+        <div class="nome"> Seu nome: <input type="text" id="nom"></div>
+        <div class="idade"> Sua idade: <input type="number" id="ida"></div>
+        <div class="hora"> Hora: <input type="time" id="tim"></div>
+
+        <div class="pais_origem">
+        Seu país de origem:
+        <select id="sel">
+            <option>Selecione...</option>
+            <option>Brasil</option>
+            <option>Estados Unidos</option>
+            <option>Inglaterra</option>
+            <option>Japão</option>
+        </select>
+        </div>
+
+        <input type="button" id="btn" value="Enviar" onclick="enviar()">
+
+    </div>
+
+    <div class="print">
+
+        <p class="p_print">Dados Impressos</p>
+        <div class="n_print" id="npt"></div>
+        <div class="i_print" id="ipt"></div>
+        <div class="t_print" id="tpt"></div>
+        <div class="po_print" id="popt"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

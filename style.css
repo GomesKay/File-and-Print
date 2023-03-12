@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Fira+Sans&family=Oswald&display=swap');
+
+body {
+
+    background-image: linear-gradient(
+
+        90deg,
+        #FFF 50%,
+        #1F1F21 50%
+
+    );
+
+}
+
+.title_file {
+
+    top: 1pc;
+    left: 22pc;
+    color: #000;
+    height: 50px;
+    width: 225px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.file {
+
+    top: 2.5pc;
+    left: 10pc;
+    color: #FFF;
+    height: 700px;
+    width: 600px;
+    position: relative;
+    background-color: #000;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.p_top {
+
+    top: 0.5pc;
+    color: #FFF;
+    font-size: 3.2ch;
+    position: relative;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.nome {
+
+    top: 1.5ch;
+    left: 6ch;
+    height: 20px;
+    width: 260px;
+    position: relative;
+
+}
+
+.idade {
+
+    top: 3.5ch;
+    left: 6ch;
+    height: 20px;
+    width: 260px;
+    position: relative;
+
+}
+
+.hora {
+
+    top: 5.5ch;
+    left: 6ch;
+    height: 20px;
+    width: 120px;
+    position: relative;
+
+}
+
+.pais_origem {
+
+    top: 7.5ch;
+    left: 6ch;
+    height: 20px;
+    width: 270px;
+    position: relative;
+
+}
+
+#btn {
+
+    color: #FFF;
+    top: 30pc;
+    left: 15pc;
+    border: 2px solid #FFF;
+    border-radius: 2pc;
+    width: 20ch;
+    padding: 15px;
+    position: relative;
+    background-color: #000;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+#btn:hover {
+
+    color: #000;
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: #FFF;
+
+}
+
+.print {
+
+    top: -42.86pc;
+    left: 70pc;
+    height: 700px;
+    width: 600px;
+    position: relative;
+    background-color: #FFF;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.p_print {
+
+    top: 0.5pc;
+    color: #000;
+    font-size: 3.2ch;
+    position: relative;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.n_print {
+
+    left: 6ch;
+    width: 350px;
+    position: relative;
+
+}
+
+.i_print {
+
+    top: 1ch;
+    left: 6ch;
+    width: 350px;
+    position: relative;
+
+}
+
+.t_print {
+
+    top: 2ch;
+    left: 6ch;
+    width: 350px;
+    position: relative;
+
+}
+
+.po_print {
+
+    top: 3ch;
+    left: 6ch;
+    width: 350px;
+    position: relative;
+
+}
